@@ -15,7 +15,7 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
-@CrossOrigin(origins = "https://class-student.netlify.app")
+@CrossOrigin
 @RestController
 @RequestMapping("/api/classroom")
 public class ClassRoomController {
